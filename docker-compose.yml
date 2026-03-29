@@ -1,0 +1,22 @@
+services:
+  backend:
+    build: .
+    ports:
+      - "5001:5001"
+    env_file: .env
+    environment:
+      - OLLAMA_BASE_URL=http://host.docker.internal:11434
+    command: python backend/app.py
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  agent:
+    build: .
+    env_file: .env
+    environment:
+      - OLLAMA_BASE_URL=http://host.docker.internal:11434
+    command: python backend/agent.py start
+    depends_on:
+      - backend
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

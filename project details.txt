@@ -1,0 +1,66 @@
+Selected Project: Real-Time E-Commerce Voicebot using LiveKit
+Voice-based interfaces are becoming an important channel for customer interaction in digital commerce, enabling faster support, hands-free access, and improved accessibility. Building such systems requires not only conversational intelligence but also reliable real-time audio streaming and low-latency response handling. In this capstone, you will design and implement a real-time AI voicebot for an e-commerce platform that can interact with customers through spoken conversation, answer common queries, provide basic product information, and assist with order tracking.
+Objectives
+•	Build a real-time voice interaction system using LiveKit and WebRTC.
+•	Integrate speech-to-text (STT) and text-to-speech (TTS) components into a live conversational loop.
+•	Use an LLM-driven conversational engine to understand and respond to user queries.
+•	Implement basic decision logic to route user queries to appropriate responses or backend actions.
+•	Demonstrate a functional end-to-end voicebot suitable for an e-commerce use case.
+________________________________________
+Core Concepts & Techniques
+•	Large Language Models (LLMs) for conversational reasoning.
+•	System prompting to define assistant role, tone, and behavior.
+•	Real-time AI pipelines (audio → text → reasoning → speech).
+•	Optional Retrieval-Augmented Generation (RAG) for factual consistency.
+•	Tool / function calling for backend actions (e.g., order status lookup).
+•	Handling uncertainty, errors, and unsupported requests in voice interfaces.
+________________________________________
+Suggested Tools / Frameworks
+•	Real-Time Audio Streaming: LiveKit (WebRTC)
+•	Backend: Python or Node.js
+•	LLM: Any API-based or local LLM
+•	Speech-to-Text (STT): Whisper or LiveKit transcription
+•	Text-to-Speech (TTS): Any TTS engine (cloud or local)
+•	Frontend: Web-based voice interface using LiveKit SDK
+________________________________________
+Data & Resources
+You should create or simulate the following:
+•	Sample customer voice queries relevant to e-commerce (e.g., order status, returns, product inquiries).
+•	Simple structured data or mock services to support actions such as order tracking or product lookup.
+•	Any supporting text or documents required for answering factual questions (if RAG is implemented).
+All data may be synthetic or self-generated.
+________________________________________
+Expected Deliverables
+1.	Working Voicebot Prototype
+o	User can speak via microphone.
+o	System transcribes speech, processes it using an LLM, and responds with synthesized voice.
+o	Demonstrates at least:
+	One informational query (e.g., delivery or returns question).
+	One product-related response.
+	One backend-style action (e.g., order tracking via mock logic).
+2.	Code Repository
+o	Backend code for LiveKit integration and AI logic.
+o	Frontend code for the voice interface.
+o	README with setup, configuration, and execution steps.
+3.	Technical Report
+o	Problem overview and scope.
+o	System architecture and real-time flow.
+o	Prompt design and reasoning logic.
+o	STT/TTS integration and latency considerations.
+o	Limitations and future improvements.
+4.	Presentation Deck
+o	Problem motivation and use case.
+o	Architecture and tech stack.
+o	Demo flow and screenshots or live demo.
+o	Key challenges and learnings.
+o	Next steps for enhancement.
+________________________________________
+Evaluation Criteria
+•	Real-Time Interaction Quality: Stability and responsiveness of the voice pipeline.
+•	Use of GIAI Concepts: Effective application of LLMs, prompts, and optional RAG or tools.
+•	System Design: Clear and modular architecture for real-time processing.
+•	Practical Relevance: Alignment with realistic e-commerce voice use cases.
+•	Code & Documentation Quality: Readability, structure, and reproducibility.
+•	Presentation Quality: Clear explanation and demonstration of the system.
+•	Safety & UX Considerations: Graceful handling of unclear speech and unsupported requests.
+

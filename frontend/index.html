@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eCommerce LiveKit Assistant</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="livekit-client.umd.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo">💬</div>
+      <h1>LiveKit Voice Assistant</h1>
+      <p class="subtitle">Real-Time E-commerce Support</p>
+
+      <div class="status-bar">
+        <div class="status-badge">
+          <div class="status-indicator" id="statusIndicator"></div>
+          <span id="statusText">Disconnected</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="error-message" id="errorMessage"></div>
+
+    <div class="voice-section">
+      <button class="microphone-button" id="connectBtn" title="Click to Connect">
+        📞
+      </button>
+      <div class="recording-timer" id="connectionTimer" style="display: none;">Connected: <span
+          id="timeElapsed">00:00</span></div>
+    </div>
+
+    <div class="transcript-section chat-section">
+      <div class="transcript-label chat-label">Conversation</div>
+      <div id="chatMessages" class="chat-messages" style="max-height: 200px; overflow-y: auto; font-size: 0.95em; color: #555;">
+        <em>Connect to start conversation...</em>
+      </div>
+    </div>
+
+    <!-- Hidden Audio Element for Remote Track -->
+    <audio id="remoteAudio" autoplay></audio>
+
+    <div class="info-panel">
+      <h4>💡 Try asking:</h4>
+      <ul>
+        <li>"What is the status of order 12345?"</li>
+        <li>"Tell me about the Laptop Pro"</li>
+        <li>"Do you have any return policy?"</li>
+      </ul>
+    </div>
+
+    <div class="footer">
+      Powered by LiveKit WebRTC + OpenAI Whisper + LLM
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

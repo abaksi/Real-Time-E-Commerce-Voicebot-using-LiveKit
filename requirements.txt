@@ -1,0 +1,13 @@
+fastapi==0.129.0
+uvicorn==0.40.0
+python-dotenv==1.2.1
+livekit-agents==1.4.1
+livekit-api==1.1.0
+livekit-blingfire==1.1.0
+livekit-protocol==1.1.2
+faster-whisper==1.2.1
+numpy==2.3.5
+av==16.1.0
+edge-tts==7.2.3
+openai==2.21.0
+requests==2.32.5

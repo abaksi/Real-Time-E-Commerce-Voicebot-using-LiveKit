@@ -1,0 +1,62 @@
+# Python virtual environments (explicit local venv)
+.venv/
+
+# Environment variables (explicit local env)
+.env
+# Python virtual environments
+venv/
+backend/venv/
+env/
+ENV/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+ 
+.env.local
+
+# Test and audio artifacts
+*.wav
+*.mp3
+tests/tts_output.*
+test_input.wav
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak

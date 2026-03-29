@@ -1,0 +1,315 @@
+{
+  "store": {
+    "name": "Baksi's Online",
+    "address": "South Kolkata, 700094",
+    "owner": "Anupam Baksi"
+  },
+  "orders": {
+    "12345": {
+      "status": "Shipped",
+      "eta_days": 2,
+      "items": ["Smartphone X"],
+      "order_date": "2025-02-01",
+      "total": 499.99
+    },
+    "67890": {
+      "status": "Processing",
+      "eta_days": 5,
+      "items": ["Laptop Pro"],
+      "order_date": "2025-02-05",
+      "total": 1299.99
+    },
+    "11223": {
+      "status": "Delivered",
+      "eta_days": 0,
+      "items": ["Wireless Headphones", "Phone Case"],
+      "order_date": "2025-01-25",
+      "total": 189.98
+    },
+    "33445": {
+      "status": "Shipped",
+      "eta_days": 1,
+      "items": ["Tablet Ultra", "USB-C Cable (3-pack)"],
+      "order_date": "2025-03-10",
+      "total": 819.98
+    },
+    "55667": {
+      "status": "Processing",
+      "eta_days": 4,
+      "items": ["Smartphone X", "Phone Case"],
+      "order_date": "2025-03-12",
+      "total": 539.98
+    },
+    "77889": {
+      "status": "Delivered",
+      "eta_days": 0,
+      "items": ["Bluetooth Speaker Mini", "Fitness Tracker Band"],
+      "order_date": "2025-03-15",
+      "total": 109.98
+    },
+    "99001": {
+      "status": "Shipped",
+      "eta_days": 3,
+      "items": ["4K Action Camera"],
+      "order_date": "2025-03-18",
+      "total": 179.99
+    },
+    "22334": {
+      "status": "Processing",
+      "eta_days": 2,
+      "items": ["Ergonomic Wireless Mouse", "Smart Home Plug (2-pack)"],
+      "order_date": "2025-03-20",
+      "total": 64.98
+    },
+    "33456": {
+      "status": "Delivered",
+      "eta_days": 0,
+      "items": ["Smartwatch Z", "Fitness Tracker Band"],
+      "order_date": "2025-03-22",
+      "total": 299.98
+    },
+    "44567": {
+      "status": "Shipped",
+      "eta_days": 2,
+      "items": ["Tablet Ultra", "USB-C Cable (3-pack)", "Bluetooth Speaker Mini"],
+      "order_date": "2025-03-23",
+      "total": 879.97
+    },
+    "55678": {
+      "status": "Processing",
+      "eta_days": 3,
+      "items": ["4K Action Camera", "Phone Case"],
+      "order_date": "2025-03-24",
+      "total": 219.98
+    },
+    "66789": {
+      "status": "Delivered",
+      "eta_days": 0,
+      "items": ["Laptop Pro", "Ergonomic Wireless Mouse"],
+      "order_date": "2025-03-25",
+      "total": 1329.98
+    },
+    "77890": {
+      "status": "Shipped",
+      "eta_days": 1,
+      "items": ["Smart Home Plug (2-pack)", "Bluetooth Speaker Mini", "Fitness Tracker Band"],
+      "order_date": "2025-03-26",
+      "total": 144.96
+    }
+    },
+  "products": [
+    {
+      "id": "p001",
+      "name": "Smartphone X",
+      "category": "smartphones",
+      "price": 499.99,
+      "stock": 12,
+      "rating": 4.7,
+      "description": "High-performance smartphone with 5G support, advanced camera, and all-day battery"
+    },
+    {
+      "id": "p002",
+      "name": "Laptop Pro",
+      "category": "laptops",
+      "price": 1299.99,
+      "stock": 5,
+      "rating": 4.8,
+      "description": "Professional-grade laptop with powerful processor, 16GB RAM, and long battery life"
+    },
+    {
+      "id": "p003",
+      "name": "Wireless Headphones",
+      "category": "audio",
+      "price": 149.99,
+      "stock": 20,
+      "rating": 4.5,
+      "description": "Noise-cancelling wireless headphones with 30-hour battery life and premium sound quality"
+    },
+    {
+      "id": "p004",
+      "name": "Phone Case",
+      "category": "accessories",
+      "price": 39.99,
+      "stock": 45,
+      "rating": 4.3,
+      "description": "Protective phone case with shock absorption and sleek design"
+    },
+    {
+      "id": "p005",
+      "name": "Tablet Ultra",
+      "category": "tablets",
+      "price": 799.99,
+      "stock": 8,
+      "rating": 4.6,
+      "description": "Lightweight 12-inch tablet perfect for work and entertainment with stunning display"
+    },
+    {
+      "id": "p006",
+      "name": "USB-C Cable (3-pack)",
+      "category": "accessories",
+      "price": 19.99,
+      "stock": 100,
+      "rating": 4.4,
+      "description": "Fast-charging USB-C cables, 3 pack. Compatible with most devices"
+    },
+    {
+      "id": "p007",
+      "name": "Smartwatch Z",
+      "category": "wearables",
+      "price": 249.99,
+      "stock": 15,
+      "rating": 4.2,
+      "description": "Feature-rich smartwatch with health tracking, GPS, and customizable faces"
+    },
+    {
+      "id": "p008",
+      "name": "Bluetooth Speaker Mini",
+      "category": "audio",
+      "price": 59.99,
+      "stock": 30,
+      "rating": 4.1,
+      "description": "Portable Bluetooth speaker with deep bass and 12-hour battery life"
+    },
+    {
+      "id": "p009",
+      "name": "4K Action Camera",
+      "category": "cameras",
+      "price": 179.99,
+      "stock": 10,
+      "rating": 4.4,
+      "description": "Waterproof 4K action camera with image stabilization and WiFi connectivity"
+    },
+    {
+      "id": "p010",
+      "name": "Ergonomic Wireless Mouse",
+      "category": "accessories",
+      "price": 29.99,
+      "stock": 60,
+      "rating": 4.5,
+      "description": "Comfortable wireless mouse with adjustable DPI and long battery life"
+    },
+    {
+      "id": "p011",
+      "name": "Smart Home Plug (2-pack)",
+      "category": "smart home",
+      "price": 34.99,
+      "stock": 40,
+      "rating": 4.3,
+      "description": "WiFi-enabled smart plugs for remote control of home devices, 2-pack"
+    },
+    {
+      "id": "p012",
+      "name": "Fitness Tracker Band",
+      "category": "wearables",
+      "price": 49.99,
+      "stock": 25,
+      "rating": 4.0,
+      "description": "Lightweight fitness tracker with heart rate monitor and sleep tracking"
+    },
+    {
+      "id": "p013",
+      "name": "Wireless Charging Pad",
+      "category": "accessories",
+      "price": 39.99,
+      "stock": 50,
+      "rating": 4.2,
+      "description": "Fast wireless charging pad compatible with most smartphones"
+    },
+    {
+      "id": "p014",
+      "name": "Noise Cancelling Earbuds",
+      "category": "audio",
+      "price": 89.99,
+      "stock": 35,
+      "rating": 4.3,
+      "description": "Compact earbuds with active noise cancellation and long battery life"
+    },
+    {
+      "id": "p015",
+      "name": "Portable SSD 1TB",
+      "category": "storage",
+      "price": 129.99,
+      "stock": 18,
+      "rating": 4.7,
+      "description": "High-speed portable SSD with 1TB capacity and USB-C interface"
+    },
+    {
+      "id": "p016",
+      "name": "Gaming Keyboard RGB",
+      "category": "accessories",
+      "price": 79.99,
+      "stock": 22,
+      "rating": 4.6,
+      "description": "Mechanical gaming keyboard with customizable RGB lighting"
+    },
+    {
+      "id": "p017",
+      "name": "Smart LED Bulb (4-pack)",
+      "category": "smart home",
+      "price": 49.99,
+      "stock": 40,
+      "rating": 4.4,
+      "description": "Energy-efficient smart LED bulbs with app and voice control, 4-pack"
+    },
+    {
+      "id": "p018",
+      "name": "Action Camera Mount Kit",
+      "category": "cameras",
+      "price": 24.99,
+      "stock": 60,
+      "rating": 4.1,
+      "description": "Accessory kit for action cameras, includes mounts and straps"
+    },
+    {
+      "id": "p019",
+      "name": "Laptop Stand Adjustable",
+      "category": "accessories",
+      "price": 34.99,
+      "stock": 28,
+      "rating": 4.5,
+      "description": "Ergonomic adjustable laptop stand for desk use"
+    },
+    {
+      "id": "p020",
+      "name": "Smart Doorbell Camera",
+      "category": "smart home",
+      "price": 99.99,
+      "stock": 15,
+      "rating": 4.3,
+      "description": "WiFi-enabled doorbell camera with motion detection and two-way audio"
+    },
+    {
+      "id": "p021",
+      "name": "Bluetooth Car Adapter",
+      "category": "accessories",
+      "price": 19.99,
+      "stock": 70,
+      "rating": 4.2,
+      "description": "Bluetooth adapter for car audio systems, hands-free calling support"
+    },
+    {
+      "id": "p022",
+      "name": "Ultra HD Monitor 27\"",
+      "category": "monitors",
+      "price": 299.99,
+      "stock": 12,
+      "rating": 4.8,
+      "description": "27-inch Ultra HD monitor with IPS panel and slim bezels"
+    },
+    {
+      "id": "p023",
+      "name": "Smart Thermostat",
+      "category": "smart home",
+      "price": 149.99,
+      "stock": 10,
+      "rating": 4.5,
+      "description": "Programmable smart thermostat with WiFi and app control"
+    }
+  ],
+  "policies": {
+    "return": "Items can be returned within 30 days of purchase with original packaging and receipt",
+    "warranty": "All electronics come with 1-year manufacturer warranty covering defects",
+    "shipping": "Free shipping on orders over $100, standard 3-5 business days",
+    "support": "Email support available 24/7, phone support Monday-Friday 9AM-5PM EST"
+  }
+}
