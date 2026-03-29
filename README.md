@@ -3,8 +3,7 @@
 **A real-time, AI-powered voice assistant for e-commerce, featuring natural conversation, product Q&A, and order support. Built with FastAPI, LiveKit, Ollama, and modern browser tech.**
 
 ---
-
-eCommerce VoiceBot enables seamless, bi-directional voice conversations between users and an AI assistant for e-commerce scenarios. It leverages:
+---
 
 ## Overview
 
@@ -117,33 +116,7 @@ See `.env.example` for all configuration options and descriptions. Key variables
 ## Architecture & Flow
 
 The following diagram and steps illustrate the real-time flow of a user voice interaction through the system:
-
-```mermaid
-flowchart TD
-        User[User]
-        Browser[Browser UI]
-        Backend[FastAPI Backend]
-        Agent[Voice Agent]
-        STT[STT (faster-whisper)]
-        TTS[TTS (edge-tts)]
-        LLM[LLM (Ollama/OpenAI)]
-        RAG[RAG (Product Data)]
-        LiveKit[LiveKit Cloud]
-
-        User --> Browser
-        Browser -->|Audio/WebRTC| Backend
-        Backend -->|Token/API| LiveKit
-        Backend -->|Audio| Agent
-        Agent --> Backend
-        Backend --> Browser
-        Browser --> User
-
-        Agent -- Speech-to-Text --> STT
-        Agent -- Text-to-Speech --> TTS
-        Agent -- LLM Query --> LLM
-        Agent -- RAG Lookup --> RAG
-```
-
+---
 **Flow Description:**
 1. **User** speaks or interacts with the browser UI.
 2. **Browser** captures audio and streams it to the backend via WebRTC (LiveKit).
@@ -193,7 +166,7 @@ The backend serves the frontend at [http://localhost:5001](http://localhost:5001
 
 ## License
 
-Add your license information here if you plan to share this project publicly.
+No Liense Information Added
 
 ---
 
